@@ -5,10 +5,10 @@ x=0
 
 while [ $x -lt 10 ]
 do
-	if [ $x -eq 9 ]
-	then
-		echo "Hi"
-	fi
-	echo "Best School"
-	(( x++ ))
+  if [ $x -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( x++ ))
 done
